@@ -136,7 +136,7 @@
     <http.version>4.4.1</http.version>
     <spark.version>${spark3.version}</spark.version>
     <spark3.version>3.5.1</spark3.version>
-    <sparkbundle.version></sparkbundle.version>
+    <sparkbundle.version/>
     <flink1.20.version>1.20.0</flink1.20.version>
     <flink1.19.version>1.19.1</flink1.19.version>
     <flink1.18.version>1.18.1</flink1.18.version>
@@ -174,7 +174,7 @@
     <commons.io.version>2.11.0</commons.io.version>
     <scala12.version>2.12.15</scala12.version>
     <scala13.version>2.13.8</scala13.version>
-    <scala.version>${scala12.version}</scala.version>
+    <scala.version>2.13.18</scala.version>
     <scala.collection-compat.version>2.8.1</scala.collection-compat.version>
     <scala.binary.version>2.12</scala.binary.version>
     <apache-rat-plugin.version>0.16.1</apache-rat-plugin.version>
@@ -676,7 +676,7 @@
               <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                 <licenseFamilyCategory>AL2 </licenseFamilyCategory>
                 <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                <notes />
+                <notes/>
                 <patterns>
                   <pattern>Licensed to the Apache Software Foundation (ASF) under one</pattern>
                 </patterns>
@@ -2208,7 +2208,7 @@
     <profile>
       <id>scala-2.12</id>
       <properties>
-        <scala.version>${scala12.version}</scala.version>
+        <scala.version>2.13.18</scala.version>
         <scala.binary.version>2.12</scala.binary.version>
         <pulsar.spark.version>${pulsar.spark.scala12.version}</pulsar.spark.version>
       </properties>
@@ -2247,7 +2247,7 @@
     <profile>
       <id>scala-2.13</id>
       <properties>
-        <scala.version>${scala13.version}</scala.version>
+        <scala.version>2.13.18</scala.version>
         <scala.binary.version>2.13</scala.binary.version>
         <pulsar.spark.version>${pulsar.spark.scala13.version}</pulsar.spark.version>
       </properties>
@@ -2294,7 +2294,7 @@
         <spark.version>${spark3.version}</spark.version>
         <sparkbundle.version>3</sparkbundle.version>
         <scala12.version>2.12.18</scala12.version>
-        <scala.version>${scala12.version}</scala.version>
+        <scala.version>2.13.18</scala.version>
         <scala.binary.version>2.12</scala.binary.version>
         <hudi.spark.module>hudi-spark3.5.x</hudi.spark.module>
         <!-- This glob has to include hudi-spark3-common, hudi-spark3.2plus-common -->
@@ -2352,7 +2352,7 @@
         <spark.version>${spark3.version}</spark.version>
         <sparkbundle.version>3.3</sparkbundle.version>
         <scala12.version>2.12.15</scala12.version>
-        <scala.version>${scala12.version}</scala.version>
+        <scala.version>2.13.18</scala.version>
         <scala.binary.version>2.12</scala.binary.version>
         <scalatest.version>${scalatest.spark3.version}</scalatest.version>
         <hudi.spark.module>hudi-spark3.3.x</hudi.spark.module>
@@ -2393,7 +2393,7 @@
         <spark.version>${spark3.version}</spark.version>
         <sparkbundle.version>3.4</sparkbundle.version>
         <scala12.version>2.12.17</scala12.version>
-        <scala.version>${scala12.version}</scala.version>
+        <scala.version>2.13.18</scala.version>
         <scala.binary.version>2.12</scala.binary.version>
         <hudi.spark.module>hudi-spark3.4.x</hudi.spark.module>
         <!-- This glob has to include hudi-spark3-common, hudi-spark3.2plus-common -->

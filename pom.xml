@@ -113,7 +113,7 @@
     <junit.vintage.version>5.8.2</junit.vintage.version>
     <junit.platform.version>1.8.2</junit.platform.version>
     <mockito.jupiter.version>3.12.4</mockito.jupiter.version>
-    <log4j2.version>2.17.2</log4j2.version>
+    <log4j2.version>2.25.3</log4j2.version>
     <slf4j.version>1.7.36</slf4j.version>
     <joda.version>2.9.9</joda.version>
     <hadoop.version>2.10.2</hadoop.version>
@@ -136,7 +136,7 @@
     <http.version>4.4.1</http.version>
     <spark.version>${spark3.version}</spark.version>
     <spark3.version>3.5.1</spark3.version>
-    <sparkbundle.version></sparkbundle.version>
+    <sparkbundle.version/>
     <flink1.20.version>1.20.0</flink1.20.version>
     <flink1.19.version>1.19.1</flink1.19.version>
     <flink1.18.version>1.18.1</flink1.18.version>
@@ -676,7 +676,7 @@
               <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                 <licenseFamilyCategory>AL2 </licenseFamilyCategory>
                 <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                <notes />
+                <notes/>
                 <patterns>
                   <pattern>Licensed to the Apache Software Foundation (ASF) under one</pattern>
                 </patterns>
@@ -2317,7 +2317,7 @@
         <fasterxml.jackson.dataformat.yaml.version>${fasterxml.spark3.version}
         </fasterxml.jackson.dataformat.yaml.version>
         <pulsar.spark.version>${pulsar.spark.scala12.version}</pulsar.spark.version>
-        <log4j2.version>2.20.0</log4j2.version>
+        <log4j2.version>2.25.3</log4j2.version>
         <slf4j.version>2.0.7</slf4j.version>
         <skipITs>true</skipITs>
       </properties>
@@ -2414,7 +2414,7 @@
         <fasterxml.jackson.module.scala.version>${fasterxml.spark3.version}</fasterxml.jackson.module.scala.version>
         <fasterxml.jackson.dataformat.yaml.version>${fasterxml.spark3.version}</fasterxml.jackson.dataformat.yaml.version>
         <pulsar.spark.version>${pulsar.spark.scala12.version}</pulsar.spark.version>
-        <log4j2.version>2.19.0</log4j2.version>
+        <log4j2.version>2.25.3</log4j2.version>
         <slf4j.version>2.0.6</slf4j.version>
         <skipITs>true</skipITs>
       </properties>
@@ -2464,7 +2464,7 @@
         <fasterxml.jackson.databind.version>${fasterxml.spark3.version}</fasterxml.jackson.databind.version>
         <fasterxml.jackson.module.scala.version>${fasterxml.spark3.version}</fasterxml.jackson.module.scala.version>
         <fasterxml.jackson.dataformat.yaml.version>${fasterxml.spark3.version}</fasterxml.jackson.dataformat.yaml.version>
-        <log4j2.version>2.20.0</log4j2.version>
+        <log4j2.version>2.25.3</log4j2.version>
         <slf4j.version>2.0.7</slf4j.version>
         <skipITs>false</skipITs>
       </properties>

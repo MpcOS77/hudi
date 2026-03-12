@@ -108,7 +108,7 @@
     <confluent.version>5.5.0</confluent.version>
     <glassfish.version>2.17</glassfish.version>
     <glassfish.el.version>3.0.1-b12</glassfish.el.version>
-    <parquet.version>1.10.1</parquet.version>
+    <parquet.version>1.15.2</parquet.version>
     <junit.jupiter.version>5.8.2</junit.jupiter.version>
     <junit.vintage.version>5.8.2</junit.vintage.version>
     <junit.platform.version>1.8.2</junit.platform.version>
@@ -116,7 +116,7 @@
     <log4j2.version>2.25.3</log4j2.version>
     <slf4j.version>1.7.36</slf4j.version>
     <joda.version>2.14.0</joda.version>
-    <hadoop.version>2.10.2</hadoop.version>
+    <hadoop.version>3.4.3</hadoop.version>
     <hive.groupid>org.apache.hive</hive.groupid>
     <hive.version>2.3.4</hive.version>
     <hive.parquet.version>1.10.1</hive.parquet.version>
@@ -168,7 +168,7 @@
     <spark35.version>3.5.3</spark35.version>
     <hudi.spark.module>hudi-spark3.5.x</hudi.spark.module>
     <hudi.spark.common.module>hudi-spark3-common</hudi.spark.common.module>
-    <avro.version>1.8.2</avro.version>
+    <avro.version>1.11.4</avro.version>
     <bijection-avro.version>0.9.7</bijection-avro.version>
     <caffeine.version>2.9.1</caffeine.version>
     <commons.io.version>2.11.0</commons.io.version>
@@ -219,7 +219,7 @@
     <openjdk.jol.version>0.16</openjdk.jol.version>
     <google.cloud.pubsub.version>1.120.0</google.cloud.pubsub.version>
     <gcp-libraries-bom.version>26.15.0</gcp-libraries-bom.version>
-    <gcs.connector.version>hadoop2-2.2.7</gcs.connector.version>
+    <gcs.connector.version>1.3.2-hadoop1</gcs.connector.version>
     <dynamodb-local.port>8000</dynamodb-local.port>
     <dynamodb-local.endpoint>http://localhost:${dynamodb-local.port}</dynamodb-local.endpoint>
     <moto.port>5002</moto.port>
@@ -2306,9 +2306,9 @@
                    hudi-hadoop-mr, for ex). Since these Hudi modules might be used from w/in the execution engine(s)
                    bringing these file-formats as dependencies as well, we need to make sure that versions are
                    synchronized to avoid classpath ambiguity -->
-        <parquet.version>1.13.1</parquet.version>
+        <parquet.version>1.15.2</parquet.version>
         <orc.spark.version>1.9.1</orc.spark.version>
-        <avro.version>1.11.2</avro.version>
+        <avro.version>1.11.4</avro.version>
         <antlr.version>4.9.3</antlr.version>
         <fasterxml.spark3.version>2.15.2</fasterxml.spark3.version>
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
@@ -2363,9 +2363,9 @@
                    hudi-hadoop-mr, for ex). Since these Hudi modules might be used from w/in the execution engine(s)
                    bringing these file-formats as dependencies as well, we need to make sure that versions are
                    synchronized to avoid classpath ambiguity -->
-        <parquet.version>1.12.2</parquet.version>
+        <parquet.version>1.15.2</parquet.version>
         <orc.spark.version>1.7.8</orc.spark.version>
-        <avro.version>1.11.1</avro.version>
+        <avro.version>1.11.4</avro.version>
         <antlr.version>4.8</antlr.version>
         <fasterxml.spark3.version>2.13.3</fasterxml.spark3.version>
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
@@ -2404,9 +2404,9 @@
                    hudi-hadoop-mr, for ex). Since these Hudi modules might be used from w/in the execution engine(s)
                    bringing these file-formats as dependencies as well, we need to make sure that versions are
                    synchronized to avoid classpath ambiguity -->
-        <parquet.version>1.12.3</parquet.version>
+        <parquet.version>1.15.2</parquet.version>
         <orc.spark.version>1.8.3</orc.spark.version>
-        <avro.version>1.11.1</avro.version>
+        <avro.version>1.11.4</avro.version>
         <antlr.version>4.9.3</antlr.version>
         <fasterxml.spark3.version>2.14.2</fasterxml.spark3.version>
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
@@ -2455,9 +2455,9 @@
                    hudi-hadoop-mr, for ex). Since these Hudi modules might be used from w/in the execution engine(s)
                    bringing these file-formats as dependencies as well, we need to make sure that versions are
                    synchronized to avoid classpath ambiguity -->
-        <parquet.version>1.13.1</parquet.version>
+        <parquet.version>1.15.2</parquet.version>
         <orc.spark.version>1.9.1</orc.spark.version>
-        <avro.version>1.11.2</avro.version>
+        <avro.version>1.11.4</avro.version>
         <antlr.version>4.9.3</antlr.version>
         <fasterxml.spark3.version>2.15.2</fasterxml.spark3.version>
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
